@@ -1,3 +1,13 @@
 body {
-    background: blue;
+    background: black;
+  }
+
+
+
+
+  .releases {
+    float: left;
+    background-color: grey;
+    width: 50%;
+    text-align: center;
   }

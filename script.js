@@ -1,4 +1,8 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+const image = document.getElementById("image");
 
-document.querySelector("body").appendChild(h2);
+image.addEventListener('mouseover', function() {
+    image.src = "./images/banner-1.png"
+})
+image.addEventListener('mouseout', function() {
+    image.src = "./images/banner-2.png"
+})

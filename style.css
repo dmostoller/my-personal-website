@@ -1,13 +1,89 @@
 body {
     background: black;
+    width: 100%;
   }
 
-
-
-
-  .releases {
-    float: left;
-    background-color: grey;
-    width: 50%;
+#image {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.release-parent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.content {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  .release-1 {
+    background-color: #363636;
+    padding: 20px;
+    margin-right: 20px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+  .release-2 {
+    background-color: #363636;
+    padding: 20px;
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+#bio-image {
+    border-radius: 25px;
+}
+.covers {
+
+
+}
+.bio {
+    padding: 20px;
+    max-width: 940px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.sections {
+    width: 1000;
+
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: lightgray;
+    margin: 20px;
+}
+h3 {
+    color: lightgrey;
+    text-align: center;
+}
+p {
+    color: black;
+}
+.table {
+
+    align-content: center;
+
+}
+p#biotext {
+    color: grey;
+    text-align: left;
+    margin: 20px;
+}
